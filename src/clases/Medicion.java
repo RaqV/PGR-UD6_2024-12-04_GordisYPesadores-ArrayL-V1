@@ -8,9 +8,6 @@ import utilidades.UtilidadesPanel;
 
 
 public class Medicion {
-	/**
-	 * 
-	 */
 	
 	//Atributos
 	private LocalDate fecha;
@@ -19,7 +16,7 @@ public class Medicion {
 	//Constructores
 	
 	
-	//Métodos
+	//Mï¿½todos
 	public LocalDate getFecha() {
 		return fecha;
 	}

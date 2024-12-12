@@ -9,9 +9,6 @@ import utilidades.UtilidadesPanel;
 ;
 
 public class Persona{
-	/**
-	 * 
-	 */
 	
 	//Atributos
 	private String nombre;
@@ -20,7 +17,7 @@ public class Persona{
 	//Constructores
 	
 	
-	//Métodos
+	//Mï¿½todos
 	public String getNombre() {
 		return nombre;
 	}

@@ -10,7 +10,6 @@ import javax.swing.JOptionPane;
 
 public class UtilidadesPanel {
 	public static String introducirCadena(String mensaje) {
-
 		String cadena = "";
 
 		cadena = JOptionPane.showInputDialog(mensaje);
@@ -63,7 +62,7 @@ public class UtilidadesPanel {
 				ok = true;
 				fNumero = Double.parseDouble(introducirCadena(mensaje));
 			} catch (NumberFormatException e) {
-				System.out.println("Error al introducir el número");
+				System.out.println("Error al introducir el nï¿½mero");
 				ok = false;
 			}
 		} while (!ok);
@@ -119,7 +118,7 @@ public class UtilidadesPanel {
 			error = false;
 			letra = introducirCadena(mensaje);
 			if (letra.length() != 1) {
-				System.out.println("Error, introduce un caráccter: ");
+				System.out.println("Error, introduce un carï¿½ccter: ");
 				error = true;
 			}
 

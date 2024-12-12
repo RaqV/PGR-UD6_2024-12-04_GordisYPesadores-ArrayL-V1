@@ -1,6 +1,7 @@
 package clases;
 
 public class Estadistica {
+	
 	//Atributos
 	private float indiceInf;
 	private float indiceSup;
@@ -23,7 +24,7 @@ public class Estadistica {
 		this.cuantos = 0;
 	}
 	
-	//Métodos
+	//Mï¿½todos
 	public float getIndiceInf() {
 		return indiceInf;
 	}

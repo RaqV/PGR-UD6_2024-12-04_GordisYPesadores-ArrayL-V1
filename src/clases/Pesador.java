@@ -7,9 +7,7 @@ import utilidades.UtilidadesPanel;
 
 
 public class Pesador extends Persona{
-	/**
-	 * 
-	 */
+
 	
 	//Atributos
 	private LocalDate fecAlta;
@@ -17,7 +15,7 @@ public class Pesador extends Persona{
 	//Constructor
 	
 	
-	//Métodos
+	//Mï¿½todos
 	public LocalDate getFecAlta() {
 		return fecAlta;
 	}
